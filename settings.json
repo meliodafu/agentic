@@ -5,7 +5,7 @@
       "maxAge": "30d",
       "warningAcknowledged": true
     },
-    "systemPromptFile": "C:/Users/engou/data-query-mcp/system_prompt.txt"
+    "systemPromptFile": "C:/PATH/system_prompt.txt"
   },
 
   "security": {
@@ -16,8 +16,8 @@
 
   "mcpServers": {
     "data-query": {
-      "command": "C:/Users/engou/data-query-mcp/.venv/Scripts/python.exe",
-      "args": ["C:/Users/engou/data-query-mcp/server.py"]
+      "command": "C:/PATH/python.exe",
+      "args": ["C:/PATH/server.py"]
     }
   }
 }
