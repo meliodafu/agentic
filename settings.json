@@ -1,0 +1,23 @@
+{
+  "general": {
+    "sessionRetention": {
+      "enabled": true,
+      "maxAge": "30d",
+      "warningAcknowledged": true
+    },
+    "systemPromptFile": "C:/Users/engou/data-query-mcp/system_prompt.txt"
+  },
+
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+
+  "mcpServers": {
+    "data-query": {
+      "command": "C:/Users/engou/data-query-mcp/.venv/Scripts/python.exe",
+      "args": ["C:/Users/engou/data-query-mcp/server.py"]
+    }
+  }
+}
